@@ -1,6 +1,6 @@
-import { HeaderComponent } from "./header/header";
-import { ContentComponent } from "./content/content";
-import { FooterComponent } from "./footer/footer";
+import { HeaderComponent } from "./header/header.js";
+import { ContentComponent } from "./content/content.js";
+import { FooterComponent } from "./footer/footer.js";
 
 window.customElements.define('header-info', HeaderComponent);
 window.customElements.define('content-info', ContentComponent);
